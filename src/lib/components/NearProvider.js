@@ -1,5 +1,5 @@
 // Packages //
-import { useState, useEffect, useContext, createContext } from "react";
+import React, { useState, useEffect, useContext, createContext } from "react";
 import { keyStores, connect, WalletConnection } from 'near-api-js';
 
 const NearContext = createContext();
